@@ -328,7 +328,7 @@
     const memoryCaption = document.getElementById("memoryCaption");
 
     const memories = [
-        { src: "assets/images/memory1.png", caption: "So proud of you and everything you're building. ✨" },
+        { src: "assets/images/memory1.png", caption: "So lucky to call you my friend. ✨" },
         { src: "assets/images/memory2.png", caption: "Effortlessly you. This is the face I fell for. 😎" },
         { src: "assets/images/memory3.png", caption: "Every angle of you is one I want to remember. 🤎" }
     ];
