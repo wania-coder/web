@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday! ❤️</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <!-- Background -->
+<div class="background">
+
+    <!-- Stars -->
+    <div class="stars"></div>
+
+    <!-- Moon -->
+    <div class="moon"></div>
+  <!-- Clouds -->
+<img src="assets/images/cloud1.png" class="cloud cloudA">
+<img src="assets/images/cloud1.png" class="cloud cloudB">
+<img src="assets/images/cloud1.png" class="cloud cloudC">
+<!-- Cloud over moon -->
+<img src="assets/images/cloud1.png" class="cloud cloudMoon">
+    <!-- Rain -->
+    <div class="rain"></div>
+
+</div>
+    <div class="glass-card">
+
+        <h3><b> For Someone Very Special  </b></h3>
+
+        <h1>Happy Birthday!</h1>
+
+        <p>
+            A little journey created with love,<br>
+            especially for you. Hope you like it!
+        </p>
+
+        <button id="startBtn">
+            Begin the Journey
+        </button>
+</div>  <!-- this closes glass-card -->
+
+    <!-- Envelope Stage -->
+    <div class="envelope-wrapper" id="envelopeWrapper">
+        <img src="assets/images/envelope.png" class="envelope" id="envelopeImg">
+        <p class="envelope-text"> <strong> A letter waiting just for you... 💖 </strong></p>
+    </div>
+
+    <!-- Letter Stage -->
+    <div class="letter-wrapper" id="letterWrapper">
+        <div class="letter-card">
+            <p class="letter-text" id="letterText">
+                My dearest Zaini!,<br>
+Another year has passed, and somehow my love for you keeps finding new ways to grow.<br>
+You are the calm in my storms, the warmth on my coldest days, and the reason my heart smiles.<br>
+I hope this year brings you every little joy you deserve — peaceful mornings, easy laughter, and dreams that come true one by one.<br>
+Thank you for being you. Thank you for loving me the way you do.<br>
+Happy Birthday, my love. 
+
+Yours always,<br>
+❤️<br>
+                Happy Birthday, my love.
+            </p>
+            <button class="letter-btn" id="letterBtn">Continue</button>
+        </div>
+    </div>
+<!-- Gift Box Stage -->
+<div class="giftbox-wrapper" id="giftboxWrapper">
+    <img src="assets/images/giftbox.png" class="giftbox" id="giftboxImg">
+    <p class="giftbox-text"> <strong>Open me... 🎁 </strong></p>
+</div>
+<!-- Cake -->
+<div class="cake-wrapper" id="cakeWrapper">
+    <p class="cake-text" id="cakeText">Happy Level-Up Day My Future Husband🎉</p>
+
+    <div class="cake-container">
+        <img src="assets/images/cake.png" alt="Birthday Cake" class="cake-img" id="cakeImg">
+
+        <div class="candles" id="candles">
+            <div class="candle"><div class="flame"></div></div>
+            <div class="candle"><div class="flame"></div></div>
+            <div class="candle"><div class="flame"></div></div>
+        </div>
+    </div>
+
+    <p class="cheers-text" id="cheersText">🥂 Cheers to you !!🎉</p>
+</div>
+<!-- Memory Gallery -->
+<div class="gallery-wrapper" id="galleryWrapper">
+    <div class="memory-card" id="memoryCard">
+        <img src="" alt="Memory" class="memory-img" id="memoryImg">
+        <p class="memory-caption" id="memoryCaption"></p>
+    </div>
+</div>
+<!-- Our Little Universe -->
+<div class="universe-wrapper" id="universeWrapper">
+    <svg class="constellation-svg" id="constellationSvg"></svg>
+    <p class="universe-quote" id="universeQuote">
+        Among millions of stars,<br>I'd still choose you.
+    </p>
+    <button class="universe-btn" id="universeBtn">Continue</button>
+</div>
+<!-- Final Message -->
+<div class="final-wrapper" id="finalWrapper">
+    <p class="final-message" id="finalMessage">
+        Happy Birthday, My Love🩷.<br>
+        Thank you for being the best part of my life.😘<br><br>
+        I cant change the past but i surely will make present better and our future best.<br> You stayed with me when no one wants to.<br>
+        You even support me in my bad days🥰<br> You love me in a way that no one else ever did.❤️
+        <br>You are my only reason of smile.😊 <br> I know i did many mistakes that no one
+        <br>but you did i am sincerely sorry for that and i promise <br> that you will never
+        <br>face that again!🥹 I purely love you🥰
+
+        I love you. ❤️
+    </p>
+</div>
+    <!-- ==========================
+     100 REASONS STAGE
+========================== -->
+
+<div id="reasonsWrapper" class="reasons-wrapper">
+
+    <div class="book-page">
+
+        <h2 class="reasons-title">
+            100 Reasons Why <br> I Love You ❤️
+        </h2>
+
+        <p id="reasonText"></p>
+
+    </div>
+
+</div>
+<!-- Fireworks Canvas -->
+    <canvas id="fireworksCanvas"></canvas>
+
+    <!-- Background Music -->
+<audio id="bgMusic" src="audio/sitare.mp3" loop></audio>
+    <script src="script.js"></script>
+    
+</body>
+</html>
